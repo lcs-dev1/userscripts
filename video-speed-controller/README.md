@@ -1,6 +1,6 @@
 # Video Speed Controller
 
-A Tampermonkey userscript that adds speed control functionality to all videos on any website.
+A userscript that adds speed control functionality to all videos on any website.
 
 ## Description
 
@@ -16,19 +16,14 @@ Video Speed Controller is a browser userscript that enhances your video watching
 - Non-intrusive UI that automatically hides when not in use
 - Compatible with dynamically loaded videos
 
-## Installation
+## Sites I’ve tested
 
-1. First, install the Tampermonkey extension for your browser:
-   - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
-   - [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
-   - [Safari](https://apps.apple.com/us/app/tampermonkey/id6738342400)
+- Prime Video
+- Netflix
+- YouTube
+- WhatsApp Web
 
-2. Click on the Tampermonkey icon in your browser and select "Create a new script"
-
-3. Delete any default code and paste the entire content of the `video-speed-controller.user.js` file
-
-4. Save the script (Ctrl+S or Cmd+S)
+It works on YouTube without issues, but if you’d like a more complete YouTube experience, I recommend the [Enhancer for YouTube™](https://chromewebstore.google.com/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) extension.
 
 ## How to Use
 
@@ -51,4 +46,6 @@ This project is open-source and free to use and modify.
 
 ## Contributing
 
-Feel free to fork this project and submit pull requests with improvements or new features. 
+Feel free to fork this project and submit pull requests with improvements or new features. [Project Link](https://github.com/lcs-dev1/userscripts/blob/main/video-speed-controller/video-speed-controller.user.js)
+
+Having problems on any site? Leave a comment or open an issue on GitHub and I’ll investigate.

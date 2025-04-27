@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Video Speed Controller (Control speed on videos in any website)
-// @namespace    lcs-dev-speed-controller
+// @namespace    https://github.com/lcs-dev1/userscripts
 // @version      1.0
 // @description  Adds speed control to all videos on a website
-// @author       lcs-dev
+// @author       lcs-dev1
 // @match        *://*/*
+// @license      Apache License 2.0
 // @grant        GM_log
 // ==/UserScript==
 
