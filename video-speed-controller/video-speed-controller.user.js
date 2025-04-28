@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Video Speed Controller (Control speed on videos in any website)
 // @namespace    https://github.com/lcs-dev1/userscripts
-// @version      1.1
+// @version      1.1.1
 // @description  Adds speed control to all videos on a website. Supports site-specific customization.
 // @author       lcs-dev1
 // @match        *://*/*
@@ -30,14 +30,14 @@
 (function() {
     'use strict';
 
-    const uniquePrefix = 'tm_vid_speed_ver__1-1';
+    const uniquePrefix = 'tm_vid_speed_ver__1-1-1';
     
     /**
      * Log debug messages
      * @param {any[]} messages - Message to log
      * @returns {void}
      */
-    function debugLog(messages) {
+    function debugLog(...messages) {
         GM_log('[Video Speed Controller]', ...messages);
     }
 
@@ -109,7 +109,7 @@
             position: absolute;
             top: 10px;
             left: 10px;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.7) !important;
             color: white;
             padding: 5px;
             border-radius: 4px;
