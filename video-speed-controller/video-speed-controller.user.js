@@ -131,7 +131,8 @@
             margin-right: 5px;
         }
         .${uniquePrefix}controller select {
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.7) !important;
+            appearance: auto !important;
             color: white;
             width: fit-content;
             border: 1px solid white;
